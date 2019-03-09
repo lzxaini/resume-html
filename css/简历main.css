@@ -1,0 +1,181 @@
+@charset "utf-8"
+/*清除所有默认的margin和paddin值*/
+*{
+    margin: auto 0px;
+    padding: auto 0px;
+}
+/*设置图片兼容，最大显示100%*/
+img { max-width: 100%;}
+a{color:#000;text-decoration:none}
+a:hover{color:yellow;}
+/*定义body的大小及其文本居中、左右自动居中显示*/
+html, body {
+  position: relative;
+  height: 100%;
+}
+body {
+  background: #eee;
+  font-family: 新宋体,Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color:#000;
+  margin: 0;
+  padding: 0;
+  text-align:center;
+}
+.swiper-container {
+  width: 100%;
+  height: 950px;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background-color: #22c3aa;
+}
+
+.bg_color{
+    float:right;margin: 0px 120px 0px 0px;
+}
+.bg_color>input{
+    border-radius: 2px;border: 0px solid #22c3aa;
+}
+/*定义的header的大小及其宽度和背景颜色*/
+.header_bar{
+    height:270px;
+    margin: auto;
+    /*border-bottom: 2px solid #CFCFCF;*/
+}
+/*设置头像的显示，圆形的，宽高150px，
+图片填充大小百分之百，不平铺，定位显示居中，并且添加浮动*/
+#head_logo{
+    border-radius: 120px;
+    border: 10px solid #D3D3D3;
+    padding: 40px; 
+    width: 150px;
+    height: 150px;
+    background-image: url(../images/header_logo.jpg);
+    background-size:cover; 
+    background-repeat:no-repeat; 
+    background-position:50% 50%;
+/*          float: left;*/
+}
+/*设置头像的div距离body的*/
+#head_logo{
+    /*margin: 50px auto;*/
+    margin-top: 50px;
+    /*text-align:center;*/
+    margin-left:auto;
+    margin-right:auto;
+}
+/*.head_logo img:hover{
+    transform: scale(2.4);
+}*/
+/*设置标题的显示*/
+.head_line{
+    /*border: 2px solid black;*/
+    width:auto;
+    height:auto;
+    /*height: 100px;*/
+    margin: 5px auto;
+    /*margin:10px 0px 0px 0px;*/
+    /*margin-left:auto;*/
+    /*margin-right:auto;*/
+    /*border: 2px solid black; */
+}
+/*设置标题的字体text-shadow属性，适用于文本阴影。*/
+.head_line>span{
+    font-family: KaiTi;
+    font-size: 2.5em;
+    padding: 15px 0;
+    color: white;
+    text-shadow: 5px 5px 5px white;
+    /*border: 2px solid black;*/
+}
+/*定义一个副标题的样式*/
+.head_line_tow{
+    /*border: 2px solid black;*/
+    width:auto;
+    height:auto;
+    margin: auto;
+    /*margin:0px 0px 0px 0px;*/
+    /*margin-left:auto;*/
+    /*margin-right:auto;*/
+}
+.head_line_tow>span{
+    font-family: KaiTi;
+    font-size: 1.4em;
+    color: #F5FFFA;
+}
+/*导航栏距离*/
+.bar{
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    /*padding-top: 20px;*/
+    width: 600px;
+    height: 40px;
+    margin:0px auto;
+    /*border: 2px solid black;*/
+}
+/*设置定义导航栏的大小及其字体垂直居中*/
+.tow_index{
+    width:auto;
+    height:auto;
+    margin: 10px auto;
+}
+.tow_index h1{
+    font-size: 2.5em;
+    padding: 15px 0;
+    color: white;
+    text-shadow: 5px 5px 5px white;
+}
+.three_index{
+    width:auto;height:auto;margin: 80px auto;
+}
+.three_index h1{
+    font-size: 3.0em;
+    padding: 15px 0;
+    color: white;
+    text-shadow: 5px 5px 5px white;
+}
+.three_index h2{
+    font-size: 1.7em;
+    color: #FFF68F;
+}
+#detail{
+    width:auto;
+    height:auto;
+    margin: 50px auto;
+}
+#detail>.detail_btn{
+    display: inline-block;
+    background-color: #ccc;
+    border: none;color: #666;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 10px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 20px;
+    border: 2px solid #ccc;
+}
+.detail_btn>a{
+    text-decoration:none;
+    color: #666;
+}
+#skill{
+    width:auto;height:auto;margin: 50px auto;
+}
+#skill>.detail_btn{
+    display: inline-block;
+    background-color: #ccc;
+    border: none;color: #666;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 10px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 20px;
+    border: 2px solid #ccc;
+}
